@@ -19,21 +19,21 @@ class LongestSubStringTest {
   @DisplayName("find longest substring for abcabcbb")
   void test1(){
     String data = "abcabcbb";
-    assertEquals(longestSubString.longestSubString(data), 3, "Longest SubString would be 3");
+    assertEquals(3, longestSubString.longestSubString(data), "Longest SubString would be 3");
   }
 
   @Test
   @DisplayName("find longest Substring for bbbbb")
   void test2(){
     String data = "bbbbb";
-    assertEquals(longestSubString.longestSubString(data), 1, "Longest SubString would be 1");
+    assertEquals(1, longestSubString.longestSubString(data), "Longest SubString would be 1");
   }
 
   @Test
   @DisplayName("find longest Substring for ABDEFGABEF")
   void test3(){
     String data = "ABDEFGABEF";
-    assertEquals(longestSubString.longestSubString(data), 6, "Longest SubString would be 6");
+    assertEquals(6, longestSubString.longestSubString(data), "Longest SubString would be 6");
   }
 
 }
