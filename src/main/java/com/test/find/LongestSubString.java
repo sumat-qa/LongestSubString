@@ -1,7 +1,7 @@
 package com.test.find;
 
 /**
- * Find the length of the longest substring for the provided string
+ * Find the length of the longest substring without repeating characters for the provided string 
  * If input is abcabcbb then the longest substring is abc and the length of that would be 3
  */
 
